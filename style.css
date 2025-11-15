@@ -1,0 +1,22 @@
+.image-preview img {
+    width: 250px;                 /* adjust as needed */
+    padding: 20px;                /* inner spacing */
+    border-style: solid;
+    border-width: 40px;           /* thick border */
+    
+    /* Top, Right, Bottom, Left colors (clockwise) */
+    border-color: 
+        #8AD7FF   /* top: light blue */
+        #FFB6C1   /* right: pink */
+        #B0FFB0   /* bottom: light green */
+        #FFE7C4;  /* left: beige */
+
+    background: white;
+    display: block;
+}
+
+p > span { color: red; }
+#header span { color: pink; }
+span { color: green; }
+#header *:last-child { color: orange; }
+#header span:first-child:hover { color: blue; }
